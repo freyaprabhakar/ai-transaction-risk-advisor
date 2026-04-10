@@ -14,7 +14,7 @@ st.set_page_config(page_title="AI Risk Advisor", layout="wide")
 # -----------------------------
 # Load dataset
 # -----------------------------
-df = pd.read_csv("PS_20174392719_1491204439457_log.csv")
+df = pd.read_csv("transactions_sample.csv")
 
 # -----------------------------
 # Knowledge base (RAG)
